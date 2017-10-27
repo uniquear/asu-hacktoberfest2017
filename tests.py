@@ -37,3 +37,11 @@ try:
         print "quicksort incorrect."
 except:
     print "quicksort function errored or is incomplete."
+try:
+    from selection import selection
+    if(selection(list(nums)) == sortedNums):
+        print "selection success!"
+    else:
+        print "selectionsort incorrect."
+except:
+    print "selection function errored or is incomplete."
